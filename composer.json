@@ -17,17 +17,17 @@
   },
   "autoload": {
     "psr-4": {
-      "msonowal\\LaravelTinify\\": "src"
+      "monove\\LaravelTinify\\": "src"
     }
   },
   "minimum-stability": "stable",
   "extra": {
       "laravel": {
           "providers": [
-              "msonowal\\LaravelTinify\\LaravelTinifyServiceProvider"
+              "monove\\LaravelTinify\\LaravelTinifyServiceProvider"
           ],
           "aliases": {
-              "Tinify": "msonowal\\LaravelTinify\\Facades\\Tinify"
+              "Tinify": "monove\\LaravelTinify\\Facades\\Tinify"
           }
       }
     }
