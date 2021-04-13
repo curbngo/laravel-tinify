@@ -1,5 +1,5 @@
 {
-  "name": "monove/laravel-tinify",
+  "name": "curbngo/laravel-tinify",
   "type": "library",
   "description": "Laravel Facade for tinify API",
   "keywords": ["tinify","tinypng"],
