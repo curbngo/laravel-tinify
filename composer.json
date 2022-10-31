@@ -2,7 +2,10 @@
   "name": "curbngo/laravel-tinify",
   "type": "library",
   "description": "Laravel Facade for tinify API",
-  "keywords": ["tinify","tinypng"],
+  "keywords": [
+    "tinify",
+    "tinypng"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -12,8 +15,8 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "illuminate/support": "^6.0|^7.0|^8.0",
-    "tinify/tinify":"~1.1"
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+    "tinify/tinify": "~1.1"
   },
   "autoload": {
     "psr-4": {
@@ -22,13 +25,13 @@
   },
   "minimum-stability": "stable",
   "extra": {
-      "laravel": {
-          "providers": [
-              "msonowal\\LaravelTinify\\LaravelTinifyServiceProvider"
-          ],
-          "aliases": {
-              "Tinify": "msonowal\\LaravelTinify\\Facades\\Tinify"
-          }
+    "laravel": {
+      "providers": [
+        "msonowal\\LaravelTinify\\LaravelTinifyServiceProvider"
+      ],
+      "aliases": {
+        "Tinify": "msonowal\\LaravelTinify\\Facades\\Tinify"
       }
     }
+  }
 }
